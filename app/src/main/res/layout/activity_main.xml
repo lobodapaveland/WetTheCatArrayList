@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pavel.cats.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cats_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We have (Cats)" />
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/new_cat_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <Button
+            android:id="@+id/add_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AddANewCatToList" />
+
+        <Button
+            android:id="@+id/wet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="wet the cats" />
+
+        <Button
+            android:id="@+id/get_cond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get cats condtion" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
